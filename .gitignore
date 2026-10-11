@@ -1,0 +1,14 @@
+# Caches et outils locaux
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.pyc
+
+# État harness / hive (dépôt git séparé sous hive/)
+hive/
+roster.json
+roster-backups/
+
+# Secrets
+.env
+.env.*
